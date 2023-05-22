@@ -7,9 +7,9 @@ var icon = document.getElementById("iconpos")
 
 function torch() {
     if (torchon) {
-        document.querySelector('body').style.background = "url(bg2.jpg) right center / cover"
+        document.querySelector('body').style.background = "url(Images/bg2.jpg) right center / cover"
         document.getElementById("password").setAttribute("type","text")
-        document.getElementById("icon").src = "button-black.png"
+        document.getElementById("icon").src = "Images/button-black.png"
         document.getElementById("title").style.color = "black"
         document.getElementById("emaillabel").style.color = "black"
         document.getElementById("email").style.color = "black"
@@ -20,9 +20,9 @@ function torch() {
         torchon = false
     }
     else{
-        document.querySelector('body').style.background = "url(bg1.jpg) right center / cover"
+        document.querySelector('body').style.background = "url(Images/bg1.jpg) right center / cover"
         document.getElementById("password").setAttribute("type","password")
-        document.getElementById("icon").src = "button-white.png"
+        document.getElementById("icon").src = "Images/button-white.png"
         document.getElementById("title").style.color = "white"
         document.getElementById("emaillabel").style.color = "white"
         document.getElementById("email").style.color = "white"
